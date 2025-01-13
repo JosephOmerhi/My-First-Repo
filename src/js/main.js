@@ -1,2 +1,3 @@
 let today = new Date();
-document.body.innerHTML += `<footer>&copy; ${today.getFullYear()}</footer>`;
+let copyrightMessage = `<footer>&copy; ${today.getFullYear()}</footer>`;
+document.body.innerHTML += copyrightMessage;
